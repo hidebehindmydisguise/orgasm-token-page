@@ -211,6 +211,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  .features-grid div {
+    width: 90%;
+    max-width: 280px;
+    margin: 10px auto;
+  }
+  
   .navbar {
     flex-direction: column;
     gap: 10px;
