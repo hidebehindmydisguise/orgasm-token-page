@@ -63,8 +63,9 @@ a {
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: #121212cc;
-  backdrop-filter: blur(10px);
+  background-color: transparent !important; 
+  backdrop-filter: none !important;         
+  box-shadow: none !important;              
   z-index: 1000;
   padding: 10px 20px;
 }
